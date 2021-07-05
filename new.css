@@ -1,0 +1,144 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  .orange-color {
+    color: orange;
+  }
+  .flexible-container {
+    display: flex;
+    margin-bottom: 150px;
+  }
+  .half-width {
+    width: 50%;
+    padding-left: 5%;
+    float: left;
+    
+  }
+  .half-width img {
+    width: 90%;
+  }
+  .link-button {
+    text-decoration: none;
+    background-image: linear-gradient(lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+  }
+  .link-button:hover {
+    background-image: linear-gradient(rgb(5, 2, 0), rgb(0, 0, 0));
+    color: rgb(236, 225, 225);
+  }
+  .top-banner {
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+  }
+  .warrior-big {
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  .experience-unit{
+      width: 40%;
+      margin-left: 5%;
+      margin-right: 5%;
+      padding-left: 20px;
+      box-shadow: 10px 10px 40px grey;
+      border-radius: 5px;
+      
+  }
+  .experience-unit:hover {
+     background-color: black;
+     color: whitesmoke;
+     cursor: pointer;
+     transition: all 1s;
+     transform: translateY(-15px);
+  }
+  #web-dev-experience{
+      border-image: linear-gradient(blue, cyan);
+      border-image-slice: 1;
+      border-left: 7px solid;
+  }
+  #full-stack-experience{
+      border-image: linear-gradient(lightsalmon, tomato);
+      border-image-slice: 1;
+      border-left: 7px solid;
+  }
+  h2{
+      font-size: 40px;
+  }
+  .experience-zone{
+      background-image: url(exp-bg.png);
+      background-repeat: no-repeat;
+      background-position: left;
+    
+  }
+  footer p{
+      text-align: center ;
+  }
+  .experience-zone div{
+      height:400px;
+  }
+  .margin-setteler{
+      margin-right: 8%;
+  }
+  .footer-details{
+    font-family: 'Tourney', cursive;
+  }
+  .social-menu ul {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+  .social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+  }
+  .social-menu ul li .fa {
+    color: #000000;
+    font-size: 20px;
+    line-height: 50px;
+    transition: .5s;
+  }
+  .social-menu ul li .fa:hover {
+    color: #ffffff;
+  }
+  .social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(220, 255, 252);
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+  }
+  .social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -5px);
+  }
+  .social-menu ul li:nth-child(1) a:hover {
+    background-color: #1877f2;
+  }
+  .social-menu ul li:nth-child(2) a:hover {
+    background-color: #1da1f2;
+  }
+  .social-menu ul li:nth-child(3) a:hover {
+    background-image: linear-gradient(#7232bd,#f46f30, #ffdc7d);
+  }
+  .social-menu ul li:nth-child(4) a:hover {
+    background-color: #ff0000;
+  }
+  .social-menu ul li:nth-child(5) a:hover {
+    background-color: #0a66c2;
+  }
